@@ -1,5 +1,7 @@
 # topic-modeling
-The objective is to investigate different topic models for topic extraction task. For this task, yahoo answer dataset has been chosen. 
+The objective is to investigate different topic models for unsupervised topic extraction. For this task, yahoo answer dataset has been chosen. The dataset has ~1.5 question-answer pairs. For model training only 60,000 samples has been chosen from the data. Only the answers are used to train the model. The main dataset can be found in the following:
+https://www.kaggle.com/soumikrakshit/yahoo-answers-dataset![image](https://user-images.githubusercontent.com/59721350/114787219-aa8e8e80-9d3c-11eb-8115-f7fb486f0465.png)
+
 
 # Topic Labeling Process:
 To genearate a semantic name for the generated topics the following steps are followed.
