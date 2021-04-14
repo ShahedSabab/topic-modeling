@@ -4,16 +4,16 @@ https://www.kaggle.com/soumikrakshit/yahoo-answers-dataset!
 
 ## Model 1: Topic Model - LDA: 
 • Different preprocessing strategies (e.g., lemmatization, stop word removal) are followed to process the input text. <br>
-• Topic Coherence metric is used to select the number of topics to generate.<br>
+• Topic Coherence metric is used to select the number of topics to generate (20 topics).<br>
 • The topics are further analyzed to give them a semantic name. (e.g., naming "topic 1" to "science").<br>
-• The inference model is used to test with unknown data from random websites. <br>
+• The trained model is used to extract topics from unknown documents.<br>
 
 ## Model 2: Topic Model - Top2Vec:
 • This model does not need any pre-processing so the raw text (only removed hyperlinks) is used for the model training.<br>
 • For generating the document vectors, bert embeddings are used.<br>
 • Hierarchical topic reduction has been used to reduce the generated topics to 20.<br>
 • Topic labeling is performed to generate a semantic name for all the 20 topics.<br>
-• The inference model is tested with unknown data. <br>
+• The trained model is used to extract topics from unknown documents.<br>
 
 # Topic Labeling Process:
 To genearate a semantic name for the generated topics the following steps are followed.
