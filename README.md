@@ -20,7 +20,7 @@ To genearate a semantic name for the generated topics the following steps are fo
 
 1. Find the top representative documents for each topic and qualitatively analyze them to get a common theme.
 2. Investigate the word distributions for each topic.
-3. Name the topic with a keyword which supports the words (i.e., from word distributions) as well the documents (i.e., representative documents).
+3. Name the topic with a keyword which supports the words (i.e., from word distributions) as well the theme portrayed in the documents (i.e., representative documents).
 
 # How to run:
 Run the code in the following order to train a topic model: 
