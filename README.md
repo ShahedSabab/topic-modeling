@@ -1,10 +1,10 @@
-# topic-modeling
-The objective is to investigate different topic modeling techniques for unsupervised topic extraction from the corpus. For this task, yahoo answer dataset has been chosen. The dataset has ~1.5 M question-answer pairs. For the model training, only 60,000 samples has been randomly chosen from the data. Only the answers are used to train the models. The models are trained using [LDA](https://www.jmlr.org/papers/volume3/blei03a/blei03a.pdf?TB_iframe=true&width=370.8&height=658.8) and [Top2Vec](https://arxiv.org/abs/2008.09470). The main dataset can be found in the following link:
+# Automatic Topic Extraction from Articles
+The objective is to develop an automated tool, which can find out topics from any article. Different topic modeling techniques are investigated for this topic extraction task. For the investigation, yahoo answer dataset has been chosen. The dataset has ~1.5M question-answer pairs. Only 60,000 samples has been randomly chosen from the data. From the selected data, only the answers are used to train the models. The models are trained using [LDA](https://www.jmlr.org/papers/volume3/blei03a/blei03a.pdf?TB_iframe=true&width=370.8&height=658.8) and [Top2Vec](https://arxiv.org/abs/2008.09470). The main dataset can be found in the following link:
 https://www.kaggle.com/soumikrakshit/yahoo-answers-dataset!
 
 ## Model 1: Topic Model - LDA: 
 • Different preprocessing strategies (e.g., lemmatization, stop word removal) are followed to process the input text. <br>
-• Topic Coherence metric is used to select the number of topics to generate (20 topics).<br>
+• Topic Coherence metric is used to select the number of topics to generate (20 topics) using LDA model.<br>
 • The topics are further analyzed to give them a semantic name. (e.g., naming "topic 1" to "science").<br>
 • The trained model is used to extract topics from unknown documents.<br>
 
