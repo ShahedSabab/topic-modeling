@@ -27,7 +27,7 @@ Run the code in the following order to train a topic model:
 
 1. yahoo_answer_lda.ipynb: This file is used to train the lda model.
 2. yahoo_answer_lda_result.ipynb: This file is used to analyze the lda model's results and give a name to each generated topic (e.g., topic-labeling).
-3. yahoo_answer_lda_infer: This file is used to test the lda model with unknown data.
+3. yahoo_answer_lda_infer.ipynb: This file is used to test the lda model with unknown data.
 4. yahoo_answer_top2vec.ipynb: This file is used to train the top2vec model.
 5. yahoo_answer_top2vec_result.ipynb: This file is used to analyze the top2vec model's results and give a name to each generated topic (e.g., topic-labeling).
-6. yahoo_answer_top2vec_infer: This file is used to test the top2vec model with unknown data.
+6. yahoo_answer_top2vec_infer.ipynb: This file is used to test the top2vec model with unknown data.
