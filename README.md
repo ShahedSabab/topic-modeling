@@ -1,5 +1,5 @@
 # topic-modeling
-The objective is to investigate different topic models for unsupervised topic extraction. For this task, yahoo answer dataset has been chosen. The dataset has ~1.5 M question-answer pairs. For the model training, only 60,000 samples has been randomly chosen from the data. Only the answers are used to train the models. The models are trained using [LDA](https://www.jmlr.org/papers/volume3/blei03a/blei03a.pdf?TB_iframe=true&width=370.8&height=658.8) and [Top2Vec](https://arxiv.org/abs/2008.09470). The main dataset can be found in the following link:
+The objective is to investigate different topic modeling techniques for unsupervised topic extraction from the corpus. For this task, yahoo answer dataset has been chosen. The dataset has ~1.5 M question-answer pairs. For the model training, only 60,000 samples has been randomly chosen from the data. Only the answers are used to train the models. The models are trained using [LDA](https://www.jmlr.org/papers/volume3/blei03a/blei03a.pdf?TB_iframe=true&width=370.8&height=658.8) and [Top2Vec](https://arxiv.org/abs/2008.09470). The main dataset can be found in the following link:
 https://www.kaggle.com/soumikrakshit/yahoo-answers-dataset!
 
 ## Model 1: Topic Model - LDA: 
